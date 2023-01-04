@@ -27,3 +27,23 @@ arr_floats.shift
 # The unshift method on the arr_strings array adds the parameter, false, to the beginning of the array.
 arr_bool.unshift(false)
 
+
+
+# Demonstrate your understanding of index positions in this file.
+# You can write an explanation, provide some examples with the Arrays you’ve created, or anything else.
+
+# Since arrays are ordered lists, elements in an array can be accessed by its position in the list. 
+# Its position is called its index, which is an integer value with the first element in an array starting at an index of 0.
+# For example, consider the array, small_group, below.
+small_group = ["Sean","Margaret","Angel","Grace"]
+# The first element, "Sean", has an index of 0.
+# The second element, "Margaret", has an index of 1.
+# The third element, "Angel", has an index of 2.
+# Lastly, the fourth element, "Grace", has an index of 3.
+
+
+# To access the elements in an array, we can use the syntax, array_name[index]. 
+# The following line of code accesses small_group at index 0, so "Sean" would print to the console.
+puts small_group[0]
+# The following line of code accesses small_group at index 3, so "Grace" would print to the console.
+puts small_group[3]
