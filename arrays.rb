@@ -47,3 +47,13 @@ small_group = ["Sean","Margaret","Angel","Grace"]
 puts small_group[0]
 # The following line of code accesses small_group at index 3, so "Grace" would print to the console.
 puts small_group[3]
+
+
+# Use the Ruby Documentation to learn about one additional Array method of your choice. 
+# Provide an explanation and example to demonstrate your understanding of it.
+
+# The .first method and the .last method will return the first and last elements of an array, respectively.
+puts small_group.first
+# --> Sean
+puts small_group.last
+# --> Grace
